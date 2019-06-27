@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Constants</title>
+    </head>
+<body>
+<h1>JavaScript Constant</h1>
+<p>You cannot change a constant value.</p>
+
+<p id="value"></p>
+
+<script>
+const Pman = "Phat Man";
+
+document.getElementById("value").innerHTML = "G Max is a big: " + Pman;
+</script>
+</body>
+</html>
+
+

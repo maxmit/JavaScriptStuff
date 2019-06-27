@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Functions</title>
+</head>
+<body>
+<h1><u>JavaScript Functions</u></h1>
+<p>This example calls a function which performs a calculation, and returns
+the result- what's 5Q plus 5Q:</p>
+<p id="fun"></p>
+<script>
+function Funny(p1, p2) {
+var q = "Q, thank you very much, lol";
+return p1 + p2 + q;
+}
+document.getElementById("fun").innerHTML = Funny(5, 5);
+</script>
+</body>
+</html>

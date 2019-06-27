@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arrays</title>
+</head>
+<body>
+
+<h1>JavaScript Arrays</h1>
+
+<p id="many"></p>
+
+<script>
+var cars = ["Chevy", " Dodge", " Jeep", "  Datsun", " 210", " 510"];
+document.getElementById("many").innerHTML = cars;
+</script>
+
+</body>
+</html>
+
+
+
+
+

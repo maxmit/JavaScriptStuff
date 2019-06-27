@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+
+<!--this is a html comment-->
+
+<html>
+<body>
+<h1 id="myH"></h1>
+<p id="myP"></p>
+<script>
+
+// this is a single comment in javascript
+
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+
+/*this is a 
+multiple comment
+in javascript
+*/
+
+document.getElementById("myP").innerHTML = "My first paragraph.";
+
+</script>
+</body>
+</html>
+
+
+
